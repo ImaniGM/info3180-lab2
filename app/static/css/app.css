@@ -1,3 +1,78 @@
-body {
-    padding-top: 5rem;
+
+
+ .profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  
+}
+
+.border{
+  border-radius: 25px, 0px, 0px, 0px;
+  background-color: orange;
+  
+}
+h1{
+  font-size:20px;
+  color: white;
+  text-shadow: 0px 2px 2px grey;
+  
+}
+
+h2{
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+  font-weight: normal;
+}
+
+.gtkm{
+  color: grey;
+  font-size: 15px;
+}
+
+img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  width:40%;
+  border-radius: 50%;
+  
+}
+
+.norm{
+ font-weight: normal;
+ }
+ 
+.num{
+ font-weight: bold;
+}
+ span{
+  margin: 10%;
+  }
+ 
+.stats{
+  display: flex;
+  font-size: 15px;
+  }
+
+button {
+  border-radius: 8px;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: brown;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+button:hover {
+  opacity: 0.7;
 }
